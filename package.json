@@ -1,8 +1,8 @@
 {
     "name": "vibrant-theme",
     "displayName": "Vibrant Theme",
-    "description": "",
-    "version": "0.0.1",
+    "description": "R",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.58.0"
     },
