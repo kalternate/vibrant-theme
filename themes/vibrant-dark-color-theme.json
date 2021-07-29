@@ -433,6 +433,7 @@
 				"storage.type",
 				"storage.modifier",
 				"keyword.operator.word",
+				"keyword.operator.new",
 				"keyword.operator.expression"
 			],
 			"settings": {
