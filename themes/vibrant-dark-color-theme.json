@@ -474,8 +474,7 @@
 			"scope": [
 				"markup.inline.raw",
 				"punctuation.definition.raw",
-				"markup.fenced_code.block",
-				"punctuation.definition"
+				"markup.fenced_code.block"
 			],
 			"settings": {
 				"foreground": "#a0b6e2"
@@ -506,7 +505,6 @@
 			"name": "Punctuation",
 			"scope": [
 				"punctuation",
-				"punctuation.definition.metadata",
 				"keyword.operator",
 				"meta.brace",
 			],
