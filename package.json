@@ -7,7 +7,7 @@
 	},
     "displayName": "Vibrant Theme",
     "description": "A theme that uses bright and vibrant colors which are easily distinguishable from each other",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "engines": {
         "vscode": "^1.58.0"
     },
