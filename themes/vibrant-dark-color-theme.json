@@ -75,7 +75,6 @@
 		"editor.background": "#282c34",
 		"editor.foreground": "#afb7c7",
 		"editorCursor.background": "#282c34",
-		
 		"editor.lineHighlightBackground": "#2e343b",
 		"editor.selectionBackground": "#60959e67",
 		"editorLineNumber.foreground": "#636d83",
@@ -272,7 +271,6 @@
 		"editorOverviewRuler.wordHighlightForeground": "#547cac9f",
 		"editorOverviewRuler.wordHighlightStrongForeground": "#973c82ad",
 		"errorForeground": "#ff2e3f",
-		
 		"merge.currentContentBackground": "#97665750",
 		"merge.currentHeaderBackground": "#8f66588a",
 		"merge.incomingContentBackground": "#3690ff44",
@@ -326,8 +324,6 @@
 		"keybindingLabel.border": "#abb2bf25",
 		"keybindingLabel.bottomBorder": "#abb2bf25",
 		"keybindingLabel.foreground": "#ffffffbb",
-
-
 		"foreground": "#c8cfdb",
 	},
 	"tokenColors": [
@@ -512,7 +508,6 @@
 				"punctuation.definition.metadata",
 				"keyword.operator",
 				"meta.brace",
-				
 			],
 			"settings": {
 				"foreground": "#8892fd"
