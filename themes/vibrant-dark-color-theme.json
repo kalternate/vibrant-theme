@@ -339,12 +339,12 @@
 			}
 		},
 		{
-			"name": "Class",
+			"name": "Type",
 			"scope": [
-				"entity.name.type.class",
+				"entity.name.type",
 				"entity.other.inherited-class",
 				"entity.name.tag",
-				"entity.name.type.namespace"
+				"support.type"
 			],
 			"settings": {
 				"foreground": "#ab6bff"
