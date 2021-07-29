@@ -1,5 +1,5 @@
 {
-	"name": "What's Up",
+	"name": "Vibrant Dark",
 	"semanticHighlighting": true,
 	"colors": {
 	  "debugConsole.errorForeground": "#f81141",
@@ -117,7 +117,7 @@
 	  "quickInputList.focusBackground": "#3a3e68",
 	  "list.focusForeground": "#ffffff",
 	  "list.inactiveSelectionBackground": "#3f4451",
-	  "list.highlightForeground": "#10b1fe",
+	  "list.highlightForeground": "#4099ff",
 	  "activityBar.foreground": "#abb2bf",
 	  "activityBar.activeBorder": "#3691ff",
 	  "sideBar.background": "#22252a",
@@ -415,7 +415,7 @@
 		  "punctuation.colon.graphql"
 		],
 		"settings": {
-		  "foreground": "#7a82da"
+		  "foreground": "#8892fd"
 		}
 	  },
 	  {
@@ -429,7 +429,7 @@
 		"name": "Operators",
 		"scope": "keyword.operator",
 		"settings": {
-		  "foreground": "#7a82da"
+		  "foreground": "#8892fd"
 		}
 	  },
 	  {
@@ -437,19 +437,14 @@
 		"scope": [
 		  "keyword",
 		  "keyword.operator.expression",
+		  "keyword.operator.new",
 		  "variable.language",
 		  "keyword.other.special-method.elixir",
+		  "support.type.primitive",
 		  "meta.control.flow"
 		],
 		"settings": {
-		  "foreground": "#10b1fe"
-		}
-	  },
-	  {
-		"name": "Primitive Type",
-		"scope": "support.type.primitive",
-		"settings": {
-		  "foreground": "#10b1fe"
+		  "foreground": "#4099ff"
 		}
 	  },
 	  {
@@ -461,7 +456,7 @@
 		  "string meta.embedded.line.ruby"
 		],
 		"settings": {
-		  "foreground": "#abb2bf"
+		  "foreground": "#b9c1d1"
 		}
 	  },
 	  {
@@ -475,7 +470,7 @@
 		  "variable.function"
 		],
 		"settings": {
-		  "foreground": "#3fc56b"
+		  "foreground": "#6ce46c"
 		}
 	  },
 	  {
@@ -494,28 +489,61 @@
 		  "support.type.enum.graphql"
 		],
 		"settings": {
-		  "foreground": "#ff6480"
+		  "foreground": "#ab6bff"
+		}
+	  },
+	  {
+		"name": "Object Properties",
+		"scope": [
+		  "meta.object-literal.key",
+		  "meta.object.member",
+		  "variable.other.property",
+		  "variable.other.object.property",
+		  "support.variable.property",
+		  "variable.object.property",
+		  "support.type.property-name",
+		  "meta.property-name",
+		  "entity.name.tag.yaml",
+		  "constant.other.key",
+		  "constant.other.object.key.js",
+		  "string.unquoted.label.js",
+		  "support.type.map.key",
+		  "variable.graphql"
+		],
+		"settings": {
+		  "foreground": "#7abfff"
+		}
+	  },
+	  {
+		"name": "Variable Parameter",
+		"scope": [
+		  "variable.parameter",
+		  "parameter.variable.function.elixir",
+		  "variable.other.block.ruby"
+		],
+		"settings": {
+		  "foreground": "#e089fa"
 		}
 	  },
 	  {
 		"name": "Methods",
 		"scope": "keyword.other.special-method",
 		"settings": {
-		  "foreground": "#3fc56b"
+		  "foreground": "#73ff73"
 		}
 	  },
 	  {
 		"name": "Storage",
-		"scope": ["storage", "constant.language"],
+		"scope": "storage",
 		"settings": {
-		  "foreground": "#10b1fe"
+		  "foreground": "#4099ff"
 		}
 	  },
 	  {
 		"name": "Support",
 		"scope": "support.function",
 		"settings": {
-		  "foreground": "#3fc56b"
+		  "foreground": "#73ff96"
 		}
 	  },
 	  {
@@ -533,24 +561,14 @@
 		}
 	  },
 	  {
-		"name": "Integers",
-		"scope": ["constant.numeric", "variable.other.anonymous.elixir"],
+		"name": "Literals",
+		"scope": [
+			"constant.numeric", 
+			"constant.language",
+			"variable.other.anonymous.elixir"
+		],
 		"settings": {
-		  "foreground": "#ff78f8"
-		}
-	  },
-	  {
-		"name": "Floats",
-		"scope": "none",
-		"settings": {
-		  "foreground": "#ff78f8"
-		}
-	  },
-	  {
-		"name": "Boolean",
-		"scope": "none",
-		"settings": {
-		  "foreground": "#10b1fe"
+		  "foreground": "#fd9b62"
 		}
 	  },
 	  {
@@ -560,13 +578,12 @@
 		  "variable.other.constant",
 		  "punctuation.definition.constant",
 		  "constant.other.symbol",
-		  "constant.language.symbol",
 		  "support.constant",
 		  "support.variable.magic.python",
 		  "variable.other.enummember"
 		],
 		"settings": {
-		  "foreground": "#9f7efe"
+		  "foreground": "#fd6262"
 		}
 	  },
 	  {
@@ -650,7 +667,7 @@
 		"name": "Link Url",
 		"scope": "meta.link",
 		"settings": {
-		  "foreground": "#10b1fe"
+		  "foreground": "#4099ff"
 		}
 	  },
 	  {
@@ -692,7 +709,7 @@
 		"name": "Changed",
 		"scope": "markup.changed",
 		"settings": {
-		  "foreground": "#10b1fe"
+		  "foreground": "#4099ff"
 		}
 	  },
 	  {
@@ -713,7 +730,7 @@
 		"name": "Embedded",
 		"scope": "variable.interpolation",
 		"settings": {
-		  "foreground": "#10b1fe"
+		  "foreground": "#4099ff"
 		}
 	  },
 	  {
@@ -725,9 +742,9 @@
 	  },
 	  {
 		"name": "New Operator",
-		"scope": "keyword.operator.new",
+		"scope": "none",
 		"settings": {
-		  "foreground": "#10b1fe"
+		  "foreground": "#4099ff"
 		}
 	  },
 	  {
@@ -741,29 +758,7 @@
 		"name": "Function Parameters",
 		"scope": "meta.function-call.arguments",
 		"settings": {
-		  "foreground": "#abb2bf"
-		}
-	  },
-	  {
-		"name": "Object Properties",
-		"scope": [
-		  "meta.object-literal.key",
-		  "meta.object.member",
-		  "variable.other.property",
-		  "variable.other.object.property",
-		  "support.variable.property",
-		  "variable.object.property",
-		  "support.type.property-name",
-		  "meta.property-name",
-		  "entity.name.tag.yaml",
-		  "constant.other.key",
-		  "constant.other.object.key.js",
-		  "string.unquoted.label.js",
-		  "support.type.map.key",
-		  "variable.graphql"
-		],
-		"settings": {
-		  "foreground": "#ce9887"
+		  "foreground": "#abb9bf"
 		}
 	  },
 	  {
@@ -785,21 +780,10 @@
 		}
 	  },
 	  {
-		"name": "Variable Parameter",
-		"scope": [
-		  "variable.parameter",
-		  "parameter.variable.function.elixir",
-		  "variable.other.block.ruby"
-		],
-		"settings": {
-		  "foreground": "#8bcdef"
-		}
-	  },
-	  {
 		"name": "Type Primitive",
 		"scope": ["support.type.primitive", "support.type.builtin"],
 		"settings": {
-		  "foreground": "#10b1fe"
+		  "foreground": "#4099ff"
 		}
 	  },
 	  {

@@ -12,9 +12,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Vibrant Theme",
+                "label": "Vibrant Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Vibrant Theme-color-theme.json"
+                "path": "./themes/vibrant-dark-color-theme.json"
             }
         ]
     }
